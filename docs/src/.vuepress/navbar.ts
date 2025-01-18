@@ -7,13 +7,14 @@ export const zhNavbarConfig = navbar([
     text: '迁移',
     icon: 'migration',
     prefix: '/migration/',
-    children: ['client', 'valine', 'tool'],
+    children: ['v3', 'v2', 'valine', 'tool'],
   },
   {
     text: '参考',
     icon: 'reference',
     prefix: '/reference/',
     children: [
+      'api/',
       {
         text: '客户端',
         prefix: 'client/',
@@ -48,13 +49,14 @@ export const enNavbarConfig = navbar([
     text: 'Migration',
     icon: 'migration',
     prefix: '/en/migration/',
-    children: ['client', 'valine', 'tool'],
+    children: ['v3', 'v2', 'valine', 'tool'],
   },
   {
     text: 'Reference',
     icon: 'reference',
     prefix: '/en/reference/',
     children: [
+      'api/',
       {
         text: 'Client',
         prefix: 'client/',

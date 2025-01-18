@@ -1,7 +1,7 @@
 ---
 title: Emoji Customize
 icon: emoji
-redirectFrom: /en/guide/client/emoji.html
+order: 2
 ---
 
 You can customize the emoji of the comment box by setting `emoji` option, you should set it to an **array** containing _preset link_ or _preset config object_. If you don't want it, just set it to `false`.
@@ -149,7 +149,7 @@ Waline DO NOT have any copyright of above emojis, use them at your own risk.
 ```html
 <div id="waline"></div>
 <script type="module">
-  import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
   init({
     el: '#waline',
